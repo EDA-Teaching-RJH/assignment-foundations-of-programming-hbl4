@@ -25,10 +25,10 @@ def run_system_monolith():
         
         opt = input("Select option: ")
         
-        if opt = "1":  
+        if opt == "1":  
             print("Current Crew List:")
             
-            for i in range(10):
+            for i in range(n):
                 print(n[i] + " - " + r[i]) 
                 
         elif opt == "2":
@@ -55,9 +55,8 @@ def run_system_monolith():
             
             for rank in r:
                 if rank == "Captain" or "Commander": 
-                    count = count + 1
+                    count += 1
             print("High ranking officers: " + count) 
-            
         elif opt == "5":
             print("Shutting down.")
             break
@@ -88,4 +87,4 @@ def run_system_monolith():
             
         print("End of cycle.")
 
-run_system_monolith
+run_system_monolith()
