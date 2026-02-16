@@ -197,7 +197,7 @@ Full Implementation = **4 Marks**
         
 8.  `filter_by_division(names, divs)`:
     
-    -   Asks user for "Command", "Operations", or "Sciences".
+    -   Asks user for "zzCommand", "Operations", or "Sciences".
         
     -   Prints only members in that division using `match` or `if` .
         
